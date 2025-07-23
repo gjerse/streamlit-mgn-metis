@@ -8,7 +8,6 @@ from utils import apply_solar_mask, save_to_fits_png
 st.set_page_config(page_title="MGN METIS Enhancer", layout="wide")
 
 # Header with logo
-st.image("logo_metis.png", width=200)
 st.title("🛰️ MGN Coronal Enhancer (METIS)")
 
 st.write("""
