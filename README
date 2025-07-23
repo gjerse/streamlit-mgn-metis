@@ -1,0 +1,21 @@
+# 📡 streamlit-mgn-metis
+
+Interactive Streamlit tool to enhance coronagraphic images (e.g., METIS) using Multiscale Gaussian Normalization (MGN).
+
+## Features
+
+- Upload FITS image (METIS or similar coronagraph)
+- Adjustable **Gamma** parameter
+- Optional solar disc masking
+- View enhanced output inline
+- Download results (**FITS** file + **PNG**) in a ZIP bundle
+
+## Usage
+
+### Local
+
+```bash
+git clone https://github.com/gjerse/streamlit-mgn-metis.git
+cd streamlit-mgn-metis
+pip install -r requirements.txt
+streamlit run app.py
